@@ -1,0 +1,14 @@
+{
+    "name": "randob/final",
+    "description": "My final task for PHP",
+    "license": "free",
+    "authors": [
+        {
+            "name": "RandoB",
+            "email": "bodnar.igor.98@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.4"
+    }
+}
