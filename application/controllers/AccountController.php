@@ -6,10 +6,10 @@ use application\core\Controller;
 
 class AccountController extends Controller{
     public function loginAction() {
-        echo 'Login Page';
+        $this->view->render('Вход');
     }
 
     public function registerAction() {
-        echo 'Register page';
+        $this->view->render('Регистрация');
     }
 }
