@@ -16,5 +16,13 @@ return [
     'account/register' => [
         'controller' => 'account',
         'action' => 'register'
+    ],
+    'course/courselist' => [
+        'controller' => 'course',
+        'action' => 'courseList'
+    ],
+    'course' => [
+        'controller' => 'course',
+        'action' => 'course'
     ]
 ];

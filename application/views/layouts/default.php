@@ -25,10 +25,10 @@
                         <a class="nav-link" href="/">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/courses">Courses</a>
+                        <a class="nav-link" href="/course/courselist">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="account/login">Login</a>
+                        <a class="nav-link" href="/account/login">Login</a>
                     </li>
                 </ul>
             </div>
@@ -38,7 +38,9 @@
 </header>
 
 <body>
-    <?= $content ?>
+    <div class="container pt-2">
+        <?= $content ?>
+    </div>
 </body>
 
 </html>
