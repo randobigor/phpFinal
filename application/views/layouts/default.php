@@ -30,6 +30,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/account/login">Login</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/account/register">Register</a>
+                    </li>
                 </ul>
             </div>
             <button class="btn btn-outline-success my-2 my-sm-0">Личный Кабинет</button>
@@ -42,5 +45,4 @@
         <?= $content ?>
     </div>
 </body>
-
 </html>

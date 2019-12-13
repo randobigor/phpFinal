@@ -4,7 +4,6 @@ namespace application\core;
 
 class View
 {
-
     public $path;
     public $route;
     public $layout = 'default';
@@ -28,13 +27,15 @@ class View
         }
     }
 
-    public static function errorCode($code) {
+    public static function errorCode($code)
+    {
         http_response_code($code);
-        require 'application/views/errors/'.$code.'.php';
+        require 'application/views/errors/' . $code . '.php';
         exit;
     }
 
-    public function redirect($url) {
+    public function redirect($url)
+    {
         header('location: ' . $url);
         exit;
     }

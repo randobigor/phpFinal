@@ -7,7 +7,7 @@
                 <p class="card-text"><?= $course['description']?></p>
             </div>
             <div class="card-footer">
-                <a href="/course?id=<?= $course['id']?>">Go to the course</a>
+                <a href="/course/<?= $course['id']?>">Go to the course</a>
             </div>
         </div>
     <? endforeach ?>

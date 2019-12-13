@@ -5,10 +5,6 @@ return [
         'controller' => 'main',
         'action' => 'index'
     ],
-    'courses/lesson' => [
-        'controller' => 'courses',
-        'action' => 'lesson'
-    ],
     'account/login' => [
         'controller' => 'account',
         'action' => 'login'
@@ -21,8 +17,8 @@ return [
         'controller' => 'course',
         'action' => 'courseList'
     ],
-    'course' => [
+    'course/{id:\d+}' => [
         'controller' => 'course',
-        'action' => 'course'
+        'action' => 'course',
     ]
 ];

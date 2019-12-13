@@ -17,7 +17,8 @@ class CourseController extends Controller
     }
 
     public function courseAction() {
-        // echo $page;
-        $this->view->render('HZ');
+        $res = $this->model->getLessons($this->route['id']);
+        var_dump($res);
+        $this->view->render('Lesson');
     }
 }

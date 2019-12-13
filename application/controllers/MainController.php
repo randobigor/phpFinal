@@ -4,8 +4,10 @@ namespace application\controllers;
 
 use application\core\Controller;
 
-class MainController extends Controller{
-    public function indexAction() {
+class MainController extends Controller
+{
+    public function indexAction()
+    {
         $res = $this->model->getData();
 
         $vars = [
